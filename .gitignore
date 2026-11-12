@@ -1,2 +1,7 @@
 */src
 */*/src/
+*/*/*/src/
+# *.nix
+# *.lock
+*/presentation/
+*/oss-cad-suite/

@@ -1,0 +1,11 @@
+# Host-side Python packages for driving the Hackster from your PC.
+#   pip install -r requirements.txt
+#
+# mpremote runs the MicroPython scripts on the application processor over USB and
+# pulls in pyserial automatically; pyserial is listed explicitly for clarity.
+#
+# If you prefer a GUI, Thonny (https://thonny.org) does the same job and is
+# installed separately - it is not a pip package.
+
+mpremote>=1.20.0
+pyserial>=3.5

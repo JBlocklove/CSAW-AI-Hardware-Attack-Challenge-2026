@@ -186,49 +186,7 @@ modules as needed, as long as normal operation is preserved.
 
 ## Final Challenge Deliverables
 
-By the submission deadline, teams must provide a `.zip` archive containing:
-
-1. **Modified RTL:** the Verilog files containing your AI-generated hardware
-   Trojan(s), able to be synthesized for the Hackster's iCE40-UP5K.
-2. **Exploit Demonstration:** evidence that each Trojan triggers and its payload
-   executes **on the physical board** - for example, a captured RP2040/host
-   session, logic-analyzer or oscilloscope traces, and/or a short video - along
-   with the scripts or testbench used to drive it. Include a run of
-   `fpga_selftest.py` on your modified design. A simulation testbench that
-   mirrors the hardware demonstration is encouraged as supporting evidence.
-3. **GenAI Transcripts:** comprehensive logs (or a document linking to chat
-   histories) of all prompts and AI responses used to generate the Trojan(s) and
-   exploit(s). *Submissions missing these logs will be disqualified.*
-4. **Technical Brief:** a short text or markdown README covering:
-   - the team's methods for reverse-engineering and understanding the bitstream,
-     including the accelerator's operation and its EEPROM key-loading path;
-   - the team's methods for using AI to analyze the design and generate the
-     Trojan(s) - the method of interaction (API, web UI, etc.), the model(s)
-     used, and any supporting framework or agentic workflow. *This is largely
-     what we judge for creative AI usage;*
-   - for **each** Trojan:
-     - the trigger and payload;
-     - any methods used to increase stealth;
-     - **a reproducible description of the exploit, with enough detail that we
-       can reproduce it on a board once a bitstream is built from your RTL;**
-   - which Trojan you consider your strongest (scored in the main rubric);
-   - your explanation of how the accelerator (and its key provisioning) works.
-
-Submit in the following format to [the finals submission form](#) *(organizer:
-insert final Google Form link)*:
-
-```
-submission.zip
-├── README.md (or pdf)
-├─ rtl/
-│  └── <Modified RTL>
-├─ tb/
-│  └── <Exploit testbench / host-side driver scripts>
-├─ demo/
-│  └── <Hardware demonstration: captures, scope/logic traces, video, or links>
-└─ ai/
-   └── <All AI interactions (chat logs, etc.)>
-```
+See the submission section in the [top-level finals README](../README.md).
 
 ## Scoring
 

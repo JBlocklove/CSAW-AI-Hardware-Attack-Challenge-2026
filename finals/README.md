@@ -2,7 +2,7 @@
 The final challenge for the CSAW AI Hardware Attack Challenge will actually consist of three challenges, each detailed below.
 
 ## Timeline
-These challenges will take place over 24 hours while at CSAW. The details on the challenges will be released at 12PM EST (subject to change based on scheduling) on 12 November and must be submitted by 12PM EST (subject to change) on 13 November.
+These challenges will take place over 24 hours while at CSAW. The details on the challenges will be released at 3PM EST on 12 November and must be submitted by 3PM EST on 13 November.
 
 
 ## Challenge 1 - Qualifying Trojan in Hardware
